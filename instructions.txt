@@ -1,0 +1,18 @@
+# install playwright (First Time Setup only)
+## javascript, tests, no CI, yes (install browser)
+npm init playwright@latest
+
+# Installing dependencies
+npm install
+
+# running tests
+npx playwright test
+
+# running tests in UI Mode
+npx playwright test --ui
+
+# to show report
+npx playwright show-report
+
+# to update playwright
+npm install -D @playwright/test@latest
